@@ -28,3 +28,7 @@
             hsla(242, 74%, 61%, 0.8)
     )!important;
 }
+.modal_window{
+    background-color: red;
+    opacity: 50%;
+}

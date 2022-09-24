@@ -1,0 +1,22 @@
+.main_container{
+}
+.container_text {
+    position: relative;
+    top: 30%;
+}
+
+.block_button{
+    padding: 10px 30px;
+    border: 2px solid #eff3ff;
+    transition: 0.4s;
+}
+
+.block_button:hover{
+    background-color: #bf42ce;
+    border: 2px solid #bf42ce;
+}
+
+img{
+    border: solid 1px #0a192f;
+    border-radius: 50%;
+}

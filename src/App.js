@@ -1,6 +1,6 @@
 import './App.css';
 
-import {About,Contact,Experience,Home,NavBar,Skills,Works} from "./Components/index"
+import {About,Contact,Experience,Home,NavBar,Works,Footer} from "./Components/index"
 
 function App() {
     return (
@@ -8,9 +8,10 @@ function App() {
             <NavBar/>
             <Home/>
             <About/>
-            <Skills/>
+            <Experience/>
             <Works/>
             <Contact/>
+            <Footer/>
         </div>
     );
 }
