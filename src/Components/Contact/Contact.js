@@ -5,37 +5,39 @@ import 'aos/dist/aos.css';
 import {useForm} from "react-hook-form";
 import {BiErrorCircle} from "react-icons/bi"
 import {HiOutlineMail} from "react-icons/hi"
-import Modal from 'react-modal';
 
 AOS.init();
-const Contact = () => {
-    const [showModal,setShowModal] = useState(true)
+const Contact = ({setShowModal,setShowError}) => {
     const {register,reset,handleSubmit,formState:{isValid,errors}} = useForm({mode:"onChange"})
 
     const submit = async (info) =>{
         try {
-            let response = await fetch('https://getform.io/f/5e50b214-79d2-40bf-83b8-200e78b6498f', {
+            await fetch('https://getform.io/f/5e50b214-79d2-40bf-83b8-200e78b6498f', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json;charset=utf-16le'
                 },
                 body: JSON.stringify(info)
-            }).then(setShowModal(true));
-            console.log(response)
+            })
+            setShowModal(true);
+            reset();
+            return 200
         }
     catch (e) {
-            console.error(e);
+        console.error(e);
+        setShowError(true);
+        reset();
+        return 400
         }
-        reset()
     }
 
     return (
-        <div name='Contact'
-             data-aos="fade-left"
+        <div
+             data-aos="fade-down"
+             data-aos-easing="linear"
              data-aos-duration="1000"
              className="w-full h-[100vh] flex items-center justify-center flex-col">
-
-            <div>
+            <div name='Contact'>
                 <div className="w-full">
                     <p className='text-4xl font-bold border-b-4 border-b-[#bf42ce] inline'>
                         Contact
@@ -98,17 +100,13 @@ const Contact = () => {
                     </div>
 
                     <div>
-                        <button onReq
-                            // type={'submit'}  onClick={()=> reset()}
+                        <button
                                 disabled={!isValid} className="enabled:bg-[#bf42ce] enabled:border-[#bf42ce]">
                             Let's Cooperate
                         </button>
                     </div>
                 </form>
             </div>
-            <Modal className="modal_window" isOpen={showModal} ariaHideApp={false} onRequestClose={()=> setShowModal(false)}>
-                Hello is Modal window
-            </Modal>
         </div>
     );
 };

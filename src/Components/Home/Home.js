@@ -30,11 +30,11 @@ const Home = () => {
                             building responsive full-stack web applications.</p>
                     </div>
                     <div className='my-8'>
-                        <button className={`${css.block_button}`}>View Pet Project</button>
+                        <button className={`${css.block_button}`}>View Pet Projects</button>
                     </div>
                 </div>
                 <div className="pr-8 w-[25%]">
-                    <img src={MyFoto} alt=""/>
+                    <img src={MyFoto} className={`${css.myfoto}`} alt=""/>
                 </div>
             </div>
         </div>

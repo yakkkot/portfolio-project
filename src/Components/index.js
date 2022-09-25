@@ -5,3 +5,5 @@ export *  from "./Home/Home";
 export *  from "./Works/Works";
 export * from "./NavBar/NavBar";
 export * from "./Footer/Footer";
+export * from "./Modal/Modal";
+export * from "./Modal/ModalError";

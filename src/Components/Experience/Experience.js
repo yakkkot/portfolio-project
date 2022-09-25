@@ -18,7 +18,7 @@ const Experience = () => {
         <div
             name='Experience'
             data-aos="zoom-in-down"
-            data-aos-duration="1500"
+            data-aos-duration="1800"
             className="w-full h-[100vh] flex items-center justify-center flex-col">
             <div>
                 <div>

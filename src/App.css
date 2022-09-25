@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    /*box-sizing: border-box;*/
 }
 body{
     background: #0a192f;
@@ -13,10 +14,9 @@ body{
     color: #bf42ce;
 }
 
-
 .xxx{
     position: fixed;
-    top: 35%;
+    top: 34%;
     left: 0;
     z-index: 2;
 }
