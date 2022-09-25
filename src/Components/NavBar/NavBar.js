@@ -46,7 +46,7 @@ const NavBar = ({showModal,showError}) => {
                     </div>
 
                 </div>}
-            {!showModal && <LeftSliders/>}
+            {!showModal && !showError && <LeftSliders/>}
 
         </div>
     );
