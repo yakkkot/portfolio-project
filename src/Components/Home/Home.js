@@ -4,6 +4,7 @@ import css from "../Home/Home.module.css";
 import MyFoto from "../../Assets/Images/myfoto.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {Link} from "react-scroll";
 
 AOS.init();
 
@@ -30,7 +31,9 @@ const Home = () => {
                             building responsive full-stack web applications.</p>
                     </div>
                     <div className='my-8'>
+                        <Link to={'Works'} smooth={true} duration={500}>
                         <button className={`${css.block_button}`}>View Pet Projects</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="pr-8 w-[25%]">
