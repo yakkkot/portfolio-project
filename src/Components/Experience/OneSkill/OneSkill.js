@@ -4,7 +4,7 @@ import HTML from "../../../Assets/Images/html.png";
 const OneSkill = ({image,name}) => {
     return (
         <div
-            className="shadow-lg shadow-[#030B3F] py-3 flex flex-col items-center justify-center gap-4 w-[200px] hover:scale-110 duration-500">
+            className="shadow-lg shadow-[#040c16] py-3 flex flex-col items-center justify-center gap-4 w-[23.7%] hover:scale-110 duration-500">
             <div>
                 <img className="w-[80px]" src={image} alt=""/>
             </div>

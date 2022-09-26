@@ -19,4 +19,13 @@
 .myfoto{
     border: solid 1px #0a192f;
     border-radius: 50%;
+    width: 100%;
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
 }

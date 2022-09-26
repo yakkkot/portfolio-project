@@ -33,56 +33,58 @@ const Contact = ({setShowModal,setShowError}) => {
 
     return (
         <div
-             data-aos="fade-down"
-             data-aos-easing="linear"
-             data-aos-duration="1000"
-             className="w-full h-[100vh] flex items-center justify-center flex-col">
-            <div name='Contact'>
-                <div className="w-full">
-                    <p className='text-4xl font-bold border-b-4 border-b-[#bf42ce] inline'>
-                        Contact
-                    </p>
-                </div>
-                <div className="flex items-center gap-2 my-5">
-                    <HiOutlineMail color={'#bf42ce'} size={30}/>
-                    <p className="text-[16px]">Submit the form below or shoot me an email - k0tjeee777@gmail.com</p>
-                </div>
-                <form onSubmit={handleSubmit(submit)}
-
-
-                      className="w-[650px] h-[500px] flex items-center justify-start flex-col">
-                    <div className="w-[100%] ">
-                        <input
-                            className="py-[8px] px-2 w-full bg-[#ccd6f5] text-black border-2 border-[#0a192f] rounded-xl focus:border-blue-500"
-                            type="text"
-                            placeholder={'Name'} {...register('name', {
-                            required: true, minLength: 3, maxLength: 40
-                        })}/>
-
-                        {errors.name ?
-                            (<div className="h-[22px] flex items-center my-2 mx-1">
-                                <BiErrorCircle className="text-red-700" size={22}/>
-                                <p className="pl-1 text-red-700 text-[14px]">Enter the correct name!</p>
-                            </div>) : <div className="h-[22px] my-2"></div>
-                        }
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+            className="w-full h-[100vh] flex items-center justify-center flex-col px-[16px]">
+            <div name='Contact' className="w-full max-w-[1000px] flex items-center justify-center flex-col">
+                <div className="max-w-[680px] w-full flex flex-col items-center justify-center">
+                    <div className="self-start">
+                        <div>
+                            <p className='text-4xl font-bold border-b-4 border-b-[#bf42ce] inline'>
+                                Contact
+                            </p>
+                        </div>
+                        <div className="flex items-center gap-2 my-5">
+                            <HiOutlineMail color={'#bf42ce'} size={30}/>
+                            <p className="text-[16px]">Submit the form below or shoot me an email -
+                               <b> k0tjeee777@gmail.com</b></p>
+                        </div>
                     </div>
-                    <div className="w-[100%] ">
-                        <input
-                            className="py-[8px] px-2 w-full bg-[#ccd6f5] text-black border-2 border-[#0a192f] rounded-xl focus:border-blue-500"
-                            type="text"
-                            placeholder={'Email'} {...register('email', {
-                            required: true, pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/, minLength: 5
-                            , maxLength: 60
-                        })}/>
+                    <form onSubmit={handleSubmit(submit)}
+                          className="max-w-[680px] w-full h-[500px] flex items-center justify-start flex-col my-2 ">
+                        <div className="w-[100%] ">
+                            <input
+                                className="py-[8px] px-2 w-full bg-[#ccd6f5] text-black border-2 border-[#0a192f] rounded-xl focus:border-blue-500"
+                                type="text"
+                                placeholder={'Name'} {...register('name', {
+                                required: true, minLength: 3, maxLength: 40
+                            })}/>
 
-                        {errors.email ?
-                            (<div className="h-[22px] flex items-center my-2 mx-1">
-                                <BiErrorCircle className="text-red-700" size={22}/>
-                                <p className="pl-1 text-red-700 text-[14px]">Enter the correct email!</p>
-                            </div>) : <div className="h-[22px] my-2"></div>
-                        }
-                    </div>
-                    <div className="w-[100%] ">
+                            {errors.name ?
+                                (<div className="h-[22px] flex items-center my-2 mx-1">
+                                    <BiErrorCircle className="text-red-700" size={22}/>
+                                    <p className="pl-1 text-red-700 text-[14px]">Enter the correct name!</p>
+                                </div>) : <div className="h-[22px] my-2"></div>
+                            }
+                        </div>
+                        <div className="w-[100%] ">
+                            <input
+                                className="py-[8px] px-2 w-full bg-[#ccd6f5] text-black border-2 border-[#0a192f] rounded-xl focus:border-blue-500"
+                                type="text"
+                                placeholder={'Email'} {...register('email', {
+                                required: true, pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/, minLength: 5
+                                , maxLength: 60
+                            })}/>
+
+                            {errors.email ?
+                                (<div className="h-[22px] flex items-center my-2 mx-1">
+                                    <BiErrorCircle className="text-red-700" size={22}/>
+                                    <p className="pl-1 text-red-700 text-[14px]">Enter the correct email!</p>
+                                </div>) : <div className="h-[22px] my-2"></div>
+                            }
+                        </div>
+                        <div className="w-[100%] ">
                     <textarea
                         className="py-[8px] px-2 w-full bg-[#ccd6f5] text-black border-2 border-[#0a192f] rounded-xl focus:border-blue-500"
                         placeholder={'Your message'} rows="9" {...register('message', {
@@ -91,21 +93,22 @@ const Contact = ({setShowModal,setShowError}) => {
                             message: 'Enter the correct message'
                         }
                     })}/>
-                        {errors.message ?
-                            (<div className="h-[22px] flex items-center my-2 mx-1">
-                                <BiErrorCircle className="text-red-700" size={22}/>
-                                <p className="pl-1 text-red-700 text-[14px]">Enter the correct message!</p>
-                            </div>) : <div className="h-[22px] my-2"></div>
-                        }
-                    </div>
+                            {errors.message ?
+                                (<div className="h-[22px] flex items-center my-2 mx-1">
+                                    <BiErrorCircle className="text-red-700" size={22}/>
+                                    <p className="pl-1 text-red-700 text-[14px]">Enter the correct message!</p>
+                                </div>) : <div className="h-[22px] my-2"></div>
+                            }
+                        </div>
 
-                    <div>
-                        <button
+                        <div>
+                            <button
                                 disabled={!isValid} className="enabled:bg-[#bf42ce] enabled:border-[#bf42ce]">
-                            Let's Cooperate
-                        </button>
-                    </div>
-                </form>
+                                Let's Cooperate
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     );

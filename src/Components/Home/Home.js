@@ -14,7 +14,7 @@ const Home = () => {
              data-aos="fade-down"
              data-aos-easing="linear"
              data-aos-duration="1500"
-             className={`${css.main_container} h-[100vh] ml-[150px]`}>
+             className={`${css.main_container} h-[100vh] ml-[10%]`}>
             <div className={`${css.container_text} flex`}>
                 <div className="pl-12 w-[75%]">
                     <div>
@@ -36,7 +36,7 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="pr-8 w-[25%]">
+                <div className="pr-8 w-[25%] mt-4">
                     <img src={MyFoto} className={`${css.myfoto}`} alt=""/>
                 </div>
             </div>

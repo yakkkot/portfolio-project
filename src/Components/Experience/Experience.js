@@ -19,26 +19,30 @@ const Experience = () => {
             name='Experience'
             data-aos="zoom-in-down"
             data-aos-duration="1800"
-            className="w-full h-[100vh] flex items-center justify-center flex-col">
-            <div>
-                <div>
-                    <p className="text-4xl font-bold border-b-4 border-b-[#bf42ce] inline">Experience</p>
+            className="w-full h-[100vh] flex items-center justify-center flex-col px-[16px]">
+            <div className="max-w-[1000px] w-full flex flex-col items-center justify-center">
+                <div className="self-start w-full">
+                    <div>
+                        <p className="text-4xl font-bold border-b-4 border-b-[#bf42ce] inline">Experience</p>
+                    </div>
+                    <div className="flex items-center gap-2 my-5">
+                        <FaBattleNet color={'#bf42ce'} size={30}/>
+                        <p className="text-[16px]">These are the technologies I've worked with (but that's not all).</p>
+                    </div>
                 </div>
-                <div className="flex items-center my-5">
-                    <FaBattleNet color={'#bf42ce'} size={30}/>
-                    <p className="mx-3 text-[16px]">These are the technologies I've worked with (but that's not all).</p>
-                </div>
-                <div className="flex gap-4 mb-2 flex-wrap items-center justify-center">
-                    <OneSkill image={HTML} name={'HTML'}/>
-                    <OneSkill image={CSS} name={'CSS'}/>
-                    <OneSkill image={JavaScript} name={'JavaScript'}/>
-                    <OneSkill image={ReactLogo} name={'React JS'}/>
-                </div>
-                <div className="flex gap-4">
-                    <OneSkill image={Github} name={'React JS'}/>
-                    <OneSkill image={Tailwind} name={'Tailwind CSS'}/>
-                    <OneSkill image={Node} name={'Node JS'}/>
-                    <OneSkill image={Mongo} name={'Mongo DB'}/>
+                <div className="w-full my-2">
+                    <div className="w-full flex mb-4 flex-wrap items-center justify-between">
+                        <OneSkill image={HTML} name={'HTML'}/>
+                        <OneSkill image={CSS} name={'CSS'}/>
+                        <OneSkill image={JavaScript} name={'JavaScript'}/>
+                        <OneSkill image={ReactLogo} name={'React JS'}/>
+                    </div>
+                    <div className="w-full flex flex-wrap items-center justify-between">
+                        <OneSkill image={Github} name={'React JS'}/>
+                        <OneSkill image={Tailwind} name={'Tailwind CSS'}/>
+                        <OneSkill image={Node} name={'Node JS'}/>
+                        <OneSkill image={Mongo} name={'Mongo DB'}/>
+                    </div>
                 </div>
             </div>
         </div>

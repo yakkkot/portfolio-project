@@ -5,12 +5,12 @@ import {Link} from "react-scroll"
 import {LeftSliders} from "../LeftSliders/LeftSliders";
 const NavBar = ({showModal,showError}) => {
     return (
-        <div>
+        <div className="h-[80px] fixed z-10 w-full py-2 px-[16px]">
             {!showModal && !showError &&
-                <div className='all_nav fixed z-3 w-full flex items-center justify-between my-2 px-4'>
-                    <div>
+                <div className="h-full flex items-center justify-between" >
+                    <div className="h-full">
                         <a href="/">
-                            <img className='w-[10vh]' src={Logo} alt="Logo"/>
+                            <img className='h-[80px]' src={Logo} alt="Logo"/>
                         </a>
                     </div>
 
