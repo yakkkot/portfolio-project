@@ -14,12 +14,6 @@ body{
     color: #bf42ce;
 }
 
-.xxx{
-    position: fixed;
-    top: 34%;
-    left: 0;
-    z-index: 2;
-}
 .small_container{
     position: relative;
     left: -110px;
@@ -36,7 +30,7 @@ body{
 }
 
 button{
-    padding: 10px 30px;
+    padding: 10px 0px;
     border: 2px solid #eff3ff;
     /*transition: 0.4s;*/
 }

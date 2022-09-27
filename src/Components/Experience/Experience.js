@@ -19,7 +19,7 @@ const Experience = () => {
             name='Experience'
             data-aos="zoom-in-down"
             data-aos-duration="1800"
-            className="w-full h-[100vh] flex items-center justify-center flex-col px-[16px]">
+            className="w-full h-[100vh] flex items-center justify-center flex-col px-[10px]">
             <div className="max-w-[1000px] w-full flex flex-col items-center justify-center">
                 <div className="self-start w-full">
                     <div>
@@ -38,7 +38,7 @@ const Experience = () => {
                         <OneSkill image={ReactLogo} name={'React JS'}/>
                     </div>
                     <div className="w-full flex flex-wrap items-center justify-between">
-                        <OneSkill image={Github} name={'React JS'}/>
+                        <OneSkill image={Github} name={'Github'}/>
                         <OneSkill image={Tailwind} name={'Tailwind CSS'}/>
                         <OneSkill image={Node} name={'Node JS'}/>
                         <OneSkill image={Mongo} name={'Mongo DB'}/>

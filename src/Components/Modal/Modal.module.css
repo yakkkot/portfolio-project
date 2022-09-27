@@ -17,6 +17,7 @@
 
 }
 .main_container{
+    padding-top: 25px;
     width: 500px;
     height: 100vh;
 }

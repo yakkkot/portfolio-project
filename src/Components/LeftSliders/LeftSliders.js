@@ -5,7 +5,7 @@ import {BsFillPersonLinesFill,BsInstagram} from "react-icons/bs";
 
 const LeftSliders = () => {
     return (
-        <div className='xxx'>
+        <div className='hidden md:flex fixed flex-col top-[34%] left-0 z-5'>
             <ul className='container_links_nav'>
                 <li className="small_container px-2 w-[160px] h-[60px] left_menu_container bg-blue-400 flex items-center gap-4 text-2xl">
                     <a href="https://www.linkedin.com/in/yaroslav-kot-9a9714234/" target="_blank" className='flex items-center justify-between w-full'>LinkedIn

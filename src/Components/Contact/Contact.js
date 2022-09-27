@@ -36,7 +36,7 @@ const Contact = ({setShowModal,setShowError}) => {
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1000"
-            className="w-full h-[100vh] flex items-center justify-center flex-col px-[16px]">
+            className="w-full h-[100vh] flex items-center justify-center flex-col px-[10px]">
             <div name='Contact' className="w-full max-w-[1000px] flex items-center justify-center flex-col">
                 <div className="max-w-[680px] w-full flex flex-col items-center justify-center">
                     <div className="self-start">
@@ -103,7 +103,7 @@ const Contact = ({setShowModal,setShowError}) => {
 
                         <div>
                             <button
-                                disabled={!isValid} className="enabled:bg-[#bf42ce] enabled:border-[#bf42ce]">
+                                disabled={!isValid} className="min-w-[200px] enabled:bg-[#bf42ce] enabled:border-[#bf42ce]">
                                 Let's Cooperate
                             </button>
                         </div>

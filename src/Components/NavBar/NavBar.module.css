@@ -1,0 +1,40 @@
+.hide_menu {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0a192f;
+    /*transition: 2s;*/
+    /*transform: translateX(-100%);*/
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 3s; /*Скорость перехода состояния элемента*/
+}
+
+.active_menu {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    /*left: -100%;*/
+    /*width: 100%;*/
+    /*height: 100vh;*/
+    opacity:1;
+    transition: 3s;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /*background-color: #000;*/
+    background-color: #0a192f;
+
+
+    /*transform: translateX(0%);*/
+}
+
+/*transition duration-800 origin-left*/
