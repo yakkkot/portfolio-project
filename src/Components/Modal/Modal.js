@@ -11,7 +11,7 @@ const Modal = ({showModal,setShowModal}) => {
         if(!showModal) return null;
     return (
         <div data-aos="fade-up" onClick={()=>setShowModal(false)} className={`${css.wrap}`}>
-            <div onClick={(e)=> e.stopPropagation()} className={`${css.main_container}`}>
+            <div onClick={(e)=> e.stopPropagation()} className={`${css.main_container} sm:mt-[25px] mt-[45px]`}>
                 <div className={`${css.content} text-gray-900 relative`}>
                     <div className="flex items-center justify-end absolute right-0">
                         <IoIosClose onClick={()=>setShowModal(false)} size={30} className="cursor-pointer"/>
