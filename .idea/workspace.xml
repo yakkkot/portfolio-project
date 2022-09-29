@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e9ecd7e-4b9b-4d35-813a-45c4a105a5a8" name="Changes" comment="working with media - first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/todo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Images/todo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Experience/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Experience/Experience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LeftSliders/LeftSliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeftSliders/LeftSliders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Works/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Works/Works.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +74,7 @@
       <workItem from="1664220893279" duration="24505000" />
       <workItem from="1664460278590" duration="2870000" />
       <workItem from="1664463257497" duration="262000" />
-      <workItem from="1664464242227" duration="2824000" />
+      <workItem from="1664464242227" duration="3729000" />
     </task>
     <task id="LOCAL-00001" summary="second day">
       <created>1664052442979</created>
@@ -142,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664289153160</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="working with media - first">
+      <created>1664467369293</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664467369293</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
