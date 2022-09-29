@@ -5,9 +5,9 @@ import {BsFillPersonLinesFill,BsInstagram} from "react-icons/bs";
 
 const LeftSliders = () => {
     return (
-        <div className='hidden md:flex fixed flex-col top-[34%] left-0 z-5'>
+        <div className='hidden lg:flex fixed flex-col top-[34%] left-0 z-20'>
             <ul className='container_links_nav'>
-                <li className="small_container px-2 w-[160px] h-[60px] left_menu_container bg-blue-400 flex items-center gap-4 text-2xl">
+                <li className="small_container px-2 w-[160px] h-[60px] left_menu_container bg-blue-500 flex items-center gap-4 text-2xl">
                     <a href="https://www.linkedin.com/in/yaroslav-kot-9a9714234/" target="_blank" className='flex items-center justify-between w-full'>LinkedIn
                         <FaLinkedin size={30}/>
                     </a>
@@ -22,7 +22,7 @@ const LeftSliders = () => {
                         <BsInstagram size={30}/>
                     </a>
                 </li>
-                <li className="small_container px-2 w-[160px] h-[60px] left_menu_container bg-violet-600 flex items-center gap-4 text-2xl">
+                <li className="small_container px-2 w-[160px] h-[60px] left_menu_container bg-violet-700 flex items-center gap-4 text-2xl">
                     <a href="/" target="_blank" className='flex items-center justify-between w-full'>Resume
                         <BsFillPersonLinesFill size={30}/>
                     </a>

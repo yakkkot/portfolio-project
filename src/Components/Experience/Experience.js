@@ -16,15 +16,13 @@ AOS.init();
 const Experience = () => {
     return (
         <>
-
             <div
-
                 name='Experience'
                 data-aos="zoom-in-down"
                 data-aos-duration="1800"
-                className="w-full h-[100vh] flex items-center justify-center flex-col sm:pt-[10px] pt-[250px] px-[10px]"> {' '}
-
+                className="w-full sm:h-[100vh]  flex items-center justify-center flex-col px-[10px]"> {' '}
                 <div className="max-w-[1000px] w-full flex flex-col items-center justify-center">
+                    <div className="sm:hidden flex h-[10px] pt-[150px]"></div>
                     <div className="self-start w-full">
                         <div>
                             <p className="text-4xl font-bold border-b-4 border-b-[#bf42ce] inline">Experience</p>

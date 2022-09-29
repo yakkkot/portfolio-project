@@ -14,8 +14,8 @@ const Home = () => {
              data-aos="fade-down"
              data-aos-easing="linear"
              data-aos-duration="1500"
-             className="h-[100vh] md:ml-[10%] px-[10px]">
-            <div className="relative md:top-[30%] top-[110px] md:flex md:flex-row flex-col gap-4">
+             className="sm:h-screen h-[115vh]  lg:ml-[10%] px-[10px]">
+            <div className="relative md:top-[30%] top-[15vh] md:flex md:flex-row flex-col gap-4">
                 <div className="md:w-[75%] w-full flex flex-col gap-2">
                     <div>
                         <p className='text-[#bf42ce] inline md:text-xl'>Hello, my name is</p>
@@ -39,7 +39,7 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="hidden md:flex md:h-[300px] md:mt-4">
+                <div className="hidden sm:flex lg:h-[280px] sm:h-[230px] sm:mt-4">
                     <img src={MyFoto} className={`${css.myfoto}`} alt={MyFoto}/>
                 </div>
             </div>

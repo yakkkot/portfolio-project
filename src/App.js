@@ -8,7 +8,7 @@ function App() {
     const [showError,setShowError] = useState(false)
     return (
 
-        <div className="App">
+        <div className="App ">
             <NavBar showModal={showModal} showError={showError}/>
             <Home/>
             <About/>

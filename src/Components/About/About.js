@@ -10,9 +10,9 @@ const About = () => {
 
              data-aos="fade-right"
              data-aos-duration="3000"
-             className='w-100% h-[100vh] flex items-center justify-center px-[10px] '>
+             className='w-100% h-screen flex items-center justify-center px-[10px] '>
             <div  className="max-w-[1000px] w-full flex items-center flex-col">
-                <div className=" w-full flex justify-center mb-10">
+                <div className=" w-full h-full flex justify-center mb-10">
                     <p className='text-4xl font-bold border-b-4 border-b-[#bf42ce] inline'>
                         About
                     </p>
