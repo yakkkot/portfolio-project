@@ -2,9 +2,7 @@ import React from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Calculator from "../../Assets/Images/calculator.png"
 import Todo from "../../Assets/Images/todo.png"
-import Watch from "../../Assets/Images/stopwatch.png"
 import OneWork from "./OneWork/OneWork";
 import {AiOutlineFundProjectionScreen} from "react-icons/ai";
 
