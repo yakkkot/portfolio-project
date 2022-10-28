@@ -16,7 +16,7 @@ body{
 
 .small_container{
     position: relative;
-    left: -110px;
+    left: -100px;
     transition: 0.5s;
 }
 

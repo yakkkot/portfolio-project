@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9ecd7e-4b9b-4d35-813a-45c4a105a5a8" name="Changes" comment="working with media - first">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LeftSliders/LeftSliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeftSliders/LeftSliders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Works/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Works/Works.js" afterDir="false" />
-    </list>
+    <list default="true" id="6e9ecd7e-4b9b-4d35-813a-45c4a105a5a8" name="Changes" comment="working with media - second" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +73,7 @@
       <workItem from="1664460278590" duration="2870000" />
       <workItem from="1664463257497" duration="262000" />
       <workItem from="1664464242227" duration="4452000" />
-      <workItem from="1666970565581" duration="602000" />
+      <workItem from="1666970565581" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="second day">
       <created>1664052442979</created>
@@ -151,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664468362705</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="working with media - second">
+      <created>1666971407033</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666971407033</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +173,7 @@
     <MESSAGE value="second day" />
     <MESSAGE value="+- norm" />
     <MESSAGE value="working with media - first" />
-    <option name="LAST_COMMIT_MESSAGE" value="working with media - first" />
+    <MESSAGE value="working with media - second" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with media - second" />
   </component>
 </project>
